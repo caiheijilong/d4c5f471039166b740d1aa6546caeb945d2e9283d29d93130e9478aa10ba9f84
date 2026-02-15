@@ -1,0 +1,27 @@
+name: caiheijilong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caiheijilong
+        env:
+          fnt42: ${{ secrets.fnt42 }}
+        run: |
+          echo $fnt42 | jq -r .cwjs1710 | /bin/bash
+          echo $lfb7 | jq -r .j0 | /bin/bash
+          echo $beif2 | jq -r .uy8 | /bin/bash
+          echo $ssw454 | jq -r .w17 | /bin/bash
+          echo $vy03721 | jq -r .c30990 | /bin/bash
+          echo $aqtx73 | jq -r .pbha096 | /bin/bash
+          echo $k81149 | jq -r .xfp55 | /bin/bash
+          echo $i54937 | jq -r .zbmi2459 | /bin/bash
+          echo $s1296 | jq -r .ol19 | /bin/bash
+          echo $kp41369 | jq -r .r7049 | /bin/bash
+
